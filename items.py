@@ -1,0 +1,21 @@
+import scrapy
+
+class ZhipingspiderItem(scrapy.Item):
+    #工作名称
+    title = scrapy.Field()
+    #工资
+    salary = scrapy.Field()
+    #招聘公司
+    company = scrapy.Field()
+    #工作详细链接
+    url = scrapy.Field()
+    #工作地点
+    work_addr = scrapy.Field()
+    #行业
+    industry = scrapy.Field()
+    #公司规模
+    company_size = scrapy.Field()
+    #招聘人
+    recruiter = scrapy.Field()
+    #发布时间
+    publish_date = scrapy.Field()
